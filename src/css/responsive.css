@@ -1,0 +1,101 @@
+/*DESCKTOP*/
+@media (max-width: 1250px) {
+    *{
+        font-size: 14px;
+    }
+    #headerMain{
+        background-position: center;
+        border-radius: 1rem;
+    }
+    main{
+        padding: 3.12rem 3rem 3.12rem 3rem;
+    }
+    .postCard div h4{
+        font-size: 1rem;
+    }
+    .postCard div p{
+        font-size: .5rem;
+    }
+    
+}
+@media (max-width: 1120px) {
+    *{
+        font-size: 11px;
+    }
+}
+@media (max-width: 920px) {
+    *{
+        font-size: 9px;
+    }
+    .postCard div h4{
+        font-size: 1.5rem;
+    }
+    .postCard div p{
+        font-size: 1rem;
+    }
+    footer{
+        height: 12rem;
+    }
+}
+  
+/*TABLET*/
+@media (max-width: 768px) {
+    *{
+        font-size: 7px;
+    }
+    header{
+        justify-content: center;
+        padding: 0;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .postCard div h4{
+        font-size: 1.5rem;
+    }
+    .postCard div p{
+        font-size: 1rem;
+    }
+    #headerMain{
+        background-image: url(/src/assets/headerMainMobile.svg);
+        background-position: center;
+        width: 100%;
+    }
+    footer {
+        height: 3rem;
+    }
+} 
+/*MOBILE*/
+@media (max-width: 480px) {
+    #headerMain h2{
+        font-size: 1.5rem;
+    }
+}
+  
+/*SMALL MOBILE*/
+@media (max-width: 320px) {
+    #headerMain h2{
+        font-size: 1rem;
+    }
+    .postCard div h4{
+        font-size: .8rem;
+    }
+    .postCard div p{
+        font-size: .5rem;
+    }
+}
+@media (max-width: 260px) {
+    #headerMain h2{
+        font-size: 1rem;
+    }
+    .card h3{
+        font-size: 1rem;
+    }
+    .postCard img{
+        width: 7rem;
+    }
+    main{
+        padding: 3.12rem 1rem 3.12rem 1rem;
+    }
+}
