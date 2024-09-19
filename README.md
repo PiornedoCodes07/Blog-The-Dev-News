@@ -1,2 +1,3 @@
 # Blog-The-Dev-News
- O melhor blog para programadores!
+Site criado para a prática de conceitos de responsividade. O melhor blog para programadores!
+ Link do Site: https://blogthedevnews.netlify.app/
